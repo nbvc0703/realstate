@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Insertion HTML5 Template</title>
+<!--
+
+Template 2101 Insertion
+
+http://www.tooplate.com/view/2101-insertion
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">        <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                            <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css">                                      <!-- Font awesome -->
+  <link rel="stylesheet" href="css/tooplate-style.css">                                           <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if (navigator.userAgent.indexOf('MSIE') !== -1
+      || navigator.appVersion.indexOf('Trident/') > 0) {
+      /* Microsoft Internet Explorer detected in. */
+      alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+      renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="tm-main">
+
+    <div class="tm-welcome-section">
+      <div class="container tm-navbar-container">
+        <div class="row">
+          <div class="col-xl-12">
+            <nav class="navbar navbar-expand-sm">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a href="index.html" class="nav-link tm-nav-link tm-text-white active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.html" class="nav-link tm-nav-link tm-text-white">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link tm-nav-link tm-text-white">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center tm-welcome-container">
+        <div class="tm-welcome">
+          <i class="fas tm-fa-big fa-music tm-fa-mb-big"></i>
+          <h1 class="text-uppercase mb-3 tm-site-name">유소연의 행복한 세상
+
+          </h1>
+          <p class="tm-site-description"><u>소연이의 행복한 세상 뉴코딩!</u></p>
+        </div>
+      </div>
+
+    </div> 
+
+    <div class="container">
+      <div class="tm-search-form-container">
+        <form action="index.html" method="GET" class="form-inline tm-search-form">
+          <div class="text-uppercase tm-new-release">New Release</div>
+          <div class="form-group tm-search-box">
+            <input type="text" name="keyword" class="form-control tm-search-input" placeholder="Type your keyword ...">
+            <input type="submit" value="Search" class="form-control tm-search-submit">
+          </div>
+          <div class="form-group tm-advanced-box">
+            <a href="#" class="tm-text-white">Go Advanced ...</a>
+          </div>
+        </form>
+      </div>
+
+      <div class="row tm-albums-container grid">
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src=data:image/jpeg;base64,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
+            >
+            <figcaption>
+              <h2><br>First Album</h2>
+              <p>Rollover text and description text goes here over mouse over...</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="img/insertion-260x390-02.jpg" alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Album Two</h2>
+              <p>Maecenas iaculis et turpis et iaculis. Aenean at volutpat diam.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="img/insertion-260x390-03.jpg" alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Third Album</h2>
+              <p>Vivamus eget elit purus. Nullam consectetur porttitor elementum.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-6 col-12 col-md-6 col-lg-3 col-xl-3 tm-album-col">
+          <figure class="effect-sadie">
+            <img src="img/insertion-260x390-04.jpg" alt="Image" class="img-fluid">
+            <figcaption>
+              <h2>Album Four</h2>
+              <p>Praesent nec feugiat dolor, elementum mollis purus. Etiam faucibus.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="tm-tag-line">
+          <h2 class="tm-tag-line-title">Music is your powerful energy.</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-xl-12">
+          <div class="media-boxes">
+            <div class="media">
+              <img src="img/insertion-140x140-01.jpg" alt="Image" class="mr-3">
+              <div class="media-body tm-bg-gray">
+                <div class="tm-description-box">
+                  <h5 class="tm-text-blue">Vivamus eget urna vitae ante</h5>
+                  <p class="mb-0">Insertion HTML Template includes 3 different pages. You can use this layout for your website. Please tell your friends about <a href="https://plus.google.com/+tooplate" target="_parent">Tooplate</a>. Thank you.</p>
+                </div>
+                <div class="tm-buy-box">
+                  <a href="#" class="tm-bg-blue tm-text-white tm-buy">buy</a>
+                  <span class="tm-text-blue tm-price-tag">$5.50</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="media">
+              <img src="img/insertion-140x140-02.jpg" alt="Image" class="mr-3">
+              <div class="media-body tm-bg-pink-light">
+                <div class="tm-description-box">
+                  <h5 class="tm-text-pink">Proin fermentum sapien sed nisl</h5>
+                  <p class="mb-0">Donec est felis, posuere viverra dapibus ac, pretium vel libero. Aliquam consectetur, arcu eget euismod congue, tortor metus vehicula.</p>
+                </div>
+                <div class="tm-buy-box">
+                  <a href="#" class="tm-bg-pink tm-text-white tm-buy">buy</a>
+                  <span class="tm-text-pink tm-price-tag">$7.25</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="media">
+              <img src="img/insertion-140x140-03.jpg" alt="Image" class="mr-3">
+              <div class="media-body tm-bg-gray">
+                <div class="tm-description-box">
+                  <h5 class="tm-text-blue">Quisque dignissim porta nunc</h5>
+                  <p class="mb-0">In neque felis, fringilla vel orci ut, sodales consectetur purus. Vivamus eget urna vitae ante pellentesque iaculis. Praesent sit amet.</p>
+                </div>
+                <div class="tm-buy-box">
+                  <a href="#" class="tm-bg-blue tm-text-white tm-buy">buy</a>
+                  <span class="tm-text-blue tm-price-tag">$6.80</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="media">
+              <img src="img/insertion-140x140-04.jpg" alt="Image" class="mr-3">
+              <div class="media-body tm-bg-pink-light">
+                <div class="tm-description-box">
+                  <h5 class="tm-text-pink">Vestibulum mattis quam sodales</h5>
+                  <p class="mb-0">Curabitur id tempor orci. Fusce efficitur in enim sit amet sodales. Proin id gravida leo. Phasellus non quam et justo faucibus rhoncus.</p>
+                </div>
+                <div class="tm-buy-box">
+                  <a href="#" class="tm-bg-pink tm-text-white tm-buy">buy</a>
+                  <span class="tm-text-pink tm-price-tag">$3.75</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="media">
+              <img src="img/insertion-140x140-05.jpg" alt="Image" class="mr-3">
+              <div class="media-body tm-bg-gray">
+                <div class="tm-description-box">
+                  <h5 class="tm-text-blue">Vestibulum mattis quam sodales</h5>
+                  <p class="mb-0">Maecenas sit amet nibh faucibus, tincidunt nisl sit amet, elementum eros. Fusce congue ligula gravida lorem lacinia.</p>
+                </div>
+                <div class="tm-buy-box">
+                  <a href="#" class="tm-bg-blue tm-text-white tm-buy">buy</a>
+                  <span class="tm-text-blue tm-price-tag">$5.25</span>
+                </div>
+              </div>
+            </div>
+          </div> <!-- media-boxes -->
+        </div>
+      </div>
+
+      <div class="row tm-mb-big tm-subscribe-row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 tm-bg-gray tm-subscribe-form">
+          <h3 class="tm-text-pink tm-mb-30">Subscribe our updates!</h3>
+          <p class="tm-mb-30">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi semper, ligula et pretium porttitor, leo orci accumsan ligula.</p>
+          <form action="index.html" method="POST">
+            <div class="form-group mb-0">
+              <input type="text" class="form-control tm-subscribe-input" placeholder="Your Email">
+              <input type="submit" value="Submit" class="tm-bg-pink tm-text-white d-block ml-auto tm-subscribe-btn">
+            </div>
+          </form>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 img-fluid pl-0 tm-subscribe-img"></div>
+      </div>
+
+      <div class="row tm-mb-medium">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Latest Albums</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed fringilla consectetur</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Mauris porta nisl quis</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Quisque maximus quam nec</a>
+          <a href="#" class="tm-text-blue-dark d-block">Class aptent taciti sociosqu ad</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4">
+          <h4 class="mb-4 tm-font-300">Our Pages</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nam dapibus imperdiet</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Primis in faucibus orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Sed interdum blandit dictum</a>
+          <a href="#" class="tm-text-blue-dark d-block">Donec non blandit nisl</a>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+          <h4 class="mb-4 tm-font-300">Quick Links</h4>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Nullam scelerisque mauris</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Vivamus tristique enim non orci</a>
+          <a href="#" class="tm-text-blue-dark d-block mb-2">Luctus et ultrices posuere</a>
+          <a href="#" class="tm-text-blue-dark d-block">Cubilia Curae</a>
+        </div>
+      </div>
+      <footer class="row">
+        <div class="col-xl-12">
+          <p class="text-center p-4">Copyright &copy; <span class="tm-current-year">2018</span> Your Company Name 
+          
+          - Design:  Tooplate</p>
+        </div>
+      </footer>
+    </div> <!-- .container -->
+
+  </div> <!-- .main -->
+
+  <!-- load JS -->
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script>
+
+    /* DOM is ready
+    ------------------------------------------------*/
+    $(function () {
+
+      if (renderPage) {
+        $('body').addClass('loaded');
+      }
+
+      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+    });
+
+  </script>
+</body>
+</html>
